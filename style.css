@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.medium-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    /* margin: auto; */
+    
+}
+.big {
+    background-color: aliceblue;
+}
+button {
+    /* height: 40px; */
+    /* margin-top: 60px; */
+    /* width: 22vh; */
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    /* margin-right: 30px; */
+}
+.sand {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.glass button {
+    background-color: pink;
+}
+/* .glass {
+    font-size: 20px;
+} */
+.grow-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    background-color: white;        
+    border: 3px solid rgb(247, 239, 239);
+    padding: 30px;
+    border-radius: 10px; 
+    margin-top: 50px;   
+}
+.grow {
+    font-size: 40px;
+}
+.boy {
+    display: flex;
+    /* justify-content: right; */
+}
+
+.boy img {
+    width: 60%;
+}
+
+.talk img {
+    width: 60%;
+}
+.compute img {
+    width: 80%;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border: 3px solid rgb(247, 239, 239);
+    padding: 30px;
+    width: 80%; 
+    margin-top: 50px;   
+}
+.flow {
+    font-size: 40px;
+}
+.talk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.username-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    border: 3px solid rgb(247, 239, 239);
+    padding: 30px;
+    margin-top: 50px;
+}
+.user {
+    font-size: 40px;
+}
+.compute {
+    display: flex;
+    justify-content: right;
+}
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    border: 3px solid rgb(247, 239, 239);
+    padding: 100px;
+    margin-top: 60px;
+    border-radius: 20px;
+    margin-bottom: -70px;
+    z-index: 100;
+    position: relative;
+    background-color: white;
+}
+
+.button-container {
+    height: 100px;
+    width: 100px;
+}
+.item-container button {
+    background-color: pink;
+    
+    border-radius: 70px;
+    font-size: 15px;
+}
+
+.item-container h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.middle-card-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    
+    padding: 30px;
+    width: 80%; 
+    margin-top: 50px;
+}
+.endpart-container {
+    background-color: black;    
+}
+.location {
+    color: white;
+}
+.skit {
+    color: white;
+}
+.skate {
+    color: white;
+}
+.board {
+    color: rgb(253, 245, 245);
+    border: 10px salmon;
+}
+.board svg {
+    color: blue;    
+}
+@media(max-width: 922px) {
+    .medium-container {
+        flex-direction: column;        
+    }
+    .sand {
+        flex-direction: column;
+    }
+    .boy img {
+        width: 50%;
+    }
+    .grow-container {
+        flex-direction: column;
+    }
+    .talk img {
+        width: 50%;
+    }
+    .talk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .username-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .medium-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50%, 50%;
+    }
+    .medium-container img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .compute{
+        display: flex;
+        justify-content: center;
+        width: 50%;        
+    }
+    .item-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 40%;
+        /* margin: auto; */
+        border: 3px solid rgb(247, 239, 239);
+        padding: 100px 80px;
+        margin-top: 60px;
+        border-radius: 20px;
+        margin-bottom: -70px;
+        z-index: 100;
+        position: relative;
+        background-color: white;
+    }
+    
+    .text button {
+        background-color: pink;
+        width: 200px;
+        margin: auto;
+        height: 100px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+    .middle-card-container {        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* align-items: center; */
+        /* margin: auto;         */
+        /* padding: 30px;
+        width: 80%; 
+        margin-top: 50px; */
+    }
+    .boy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grow {
+        font-size: 20px;
+    }
+    .grow-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+        background-color: white;        
+        border: 3px solid rgb(247, 239, 239);
+        padding: 30px;
+        border-radius: 10px; 
+        margin-top: 50px;   
+    }
+    .flow {
+        font-size: 20px;
+    }
+    .user {
+        font-size: 20px;
+    }
+    .Bussiness_card {        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Bussiness_card img {
+        width: 50%;
+    }
+    .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        border: 3px solid rgb(247, 239, 239);
+        padding: 30px;
+        width: 80%; 
+        margin-top: 50px;   
+    }
+   
+}
